@@ -1,11 +1,11 @@
 export default interface IBook {
-    id: number;
-    title: string;
-    description: string;
-    authors: string;
-    favorite: boolean;
-    fileCover?: string;
-    fileName?: string;
-    fileBook?: string;
+    readonly id: number;
+    readonly title: string;
+    readonly description: string;
+    readonly authors: string;
+    readonly favorite: boolean;
+    readonly fileCover?: string;
+    readonly fileName?: string;
+    readonly fileBook?: string;
 }
 
